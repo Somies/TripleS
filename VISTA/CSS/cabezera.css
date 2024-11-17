@@ -86,7 +86,6 @@
     text-decoration: none;
     background: white;
     border-radius: 20px;
-    box-shadow: 0 0 10px 4px red;
 }
 
 
@@ -167,7 +166,7 @@
         color: white;
         white-space: nowrap;
         overflow: hidden; /* Ocultar el contenido desbordado */
-        animation: typing 4s steps(130, end), blink-caret 0.75s step-end infinite;
+        animation: typing 3s steps(130, end), blink-caret 0.75s step-end infinite;
         text-align: center; /* Centrar el texto horizontalmente */
     }
     
