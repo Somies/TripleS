@@ -56,19 +56,20 @@
         }
         
     }
+    
     /*Mantener todo centrado en dispositivos medianos*/
-@media (max-width: 1200px) and (min-width: 991px) {
+@media (max-width: 1200px) and (min-width: 651px) {
     /* Ajuste de la altura de la barra de navegación en dispositivos móviles */
     .subcabeza1 {
         height: 90px;
     }
     .container-fluid p{
-        font-size: 3%;
+        font-size: 54px;
         -webkit-text-stroke: 2px black; /* Borde negro delgado */
     }
     .navbar-nav .nav-link {
         border-radius: 20px;
-        font-size: 1px;
+        font-size: 25px;
         color: white;
         transition: color 0.3s ease;
         font-family: "Archivo Black", sans-serif;
