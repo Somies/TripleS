@@ -1,0 +1,47 @@
+.cuerpo{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.cuadro1cuerpo1{
+    width: 100%;
+    height: 700px;
+    background: red;
+    display: flex;
+    justify-content: center;
+}
+
+.apartadocuadro1cuerpo1 {
+    width: 1920px;
+    height: auto;
+    background: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel,
+.carousel-inner,
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.cuadro1cuerpo1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: black; /* Color de los círculos */
+    width: 12px;
+    height: 12px;
+    border-radius: 50%; /* Círculos completamente redondos */
+    margin: 0 5px; /* Espaciado entre los círculos */
+}
+
+.carousel-indicators .active {
+    background-color: orange; /* Color del círculo activo */
+}
