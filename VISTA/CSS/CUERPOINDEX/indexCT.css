@@ -1,9 +1,11 @@
+
 @media (max-width:  991px) {
     .cuadro1cuerpo1{
-        width: 100%;
-        height: 350px;
-        background: red;
-        display: flex;
-        justify-content: center;
+        height: 250px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 691px) {
+    .cuadro1cuerpo1{
+        height: 400px;
     }
 }

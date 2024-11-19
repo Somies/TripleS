@@ -58,7 +58,7 @@
     }
     
     /*Mantener todo centrado en dispositivos medianos*/
-@media (max-width: 1200px) and (min-width: 651px) {
+@media (max-width: 1200px) and (min-width: 991px) {
     /* Ajuste de la altura de la barra de navegación en dispositivos móviles */
     .subcabeza1 {
         height: 90px;
