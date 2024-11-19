@@ -1,11 +1,60 @@
 
 @media (max-width:  991px) {
+/*carrusel*/
     .cuadro1cuerpo1{
         height: 250px;
     }
+/*plazas*/
+    .cuadro2cuerpo1{
+        height: 70px;
+    }
+    .apartadocuadro2cuerpo1 p{
+        font-size: 15px;
+    }
+/*imaganes plazas*/
+    .cuadro3cuerpo1{
+        height: 120px;
+    }
+
+    .apartadocuadro3cuerpo1 .testimonial-container {
+        width: 56%;
+    }
+    .card-item img {
+        border-radius: 50%; /* Hace la imagen redonda */
+        width: 50px;
+        height: 50px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para darle un toque elegante */
+    }
+    .card-item p {
+        font-size: 8px;
+    }
+    .apartadocuadro3cuerpo1 .swiper-button-prev,
+    .apartadocuadro3cuerpo1 .swiper-button-next {
+        width: 30px; /* Reduce el ancho del botón */
+        height: 30px; /* Reduce la altura del botón */
+    }
+    
+    /* Ajusta el tamaño del ícono dentro de los botones */
+    .apartadocuadro3cuerpo1 .swiper-button-prev::after,
+    .apartadocuadro3cuerpo1 .swiper-button-next::after {
+        font-size: 18px; /* Ajusta el tamaño del ícono */
+    }
+    /* Ajusta la posición del botón anterior */
+    .apartadocuadro3cuerpo1 .swiper-button-prev {
+        transform: translateX(-20px);
+    }
+        
+    /* Ajusta la posición del botón siguiente */
+    .apartadocuadro3cuerpo1 .swiper-button-next {
+        transform: translateX(20px);
+    }
+    
+
 }
 @media (max-width: 1200px) and (min-width: 691px) {
+/*carrusel*/
     .cuadro1cuerpo1{
         height: 400px;
     }
+/*plazas*/
 }

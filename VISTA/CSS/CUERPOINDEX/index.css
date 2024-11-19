@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+/*Cuadro de Sleider*/
 .cuadro1cuerpo1{
     width: 100%;
     height: 600px;
@@ -44,4 +45,147 @@
 
 .carousel-indicators .active {
     background-color: orange; /* Color del círculo activo */
+}
+
+/*las plazas*/
+
+.cuadro2cuerpo1{
+    width: 100%;
+    height: 170px;
+    background: rebeccapurple;
+    display: flex;
+    justify-content: center;
+}
+
+.apartadocuadro2cuerpo1 {
+    width: 1920px;
+    height: auto;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apartadocuadro2cuerpo1 p{
+    transform: translateY(30px);
+    font-size: 30px;
+}
+
+/*plazas fotos*/
+.cuadro3cuerpo1{
+    width: 100%;
+    height: 250px;
+    background: violet;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo principal del contenedor */
+.apartadocuadro3cuerpo1 {
+    width: 1920px;
+    height: auto;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo del contenedor de testimonios */
+.apartadocuadro3cuerpo1 .testimonial-container {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Estilo del contenedor del carrusel */
+.apartadocuadro3cuerpo1 .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+/* Botones de navegación */
+
+.apartadocuadro3cuerpo1 .swiper-button-prev {
+    color: #ff8700;
+}
+
+.apartadocuadro3cuerpo1 .swiper-button-next {
+    color: #ff8700;
+}
+
+
+/* Paginación */
+.apartadocuadro3cuerpo1 .swiper-pagination {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    z-index: 10;
+}
+
+.apartadocuadro3cuerpo1 .swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    opacity: 0.8;
+}
+
+.apartadocuadro3cuerpo1 .swiper-pagination .swiper-pagination-bullet-active {
+    
+    background-color: #8bcc1f;
+    opacity: 1;
+}
+
+/* Ajustes de las diapositivas */
+.apartadocuadro3cuerpo1 .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo de cada tarjeta */
+.apartadocuadro3cuerpo1 .card-item {
+    display: flex;
+    flex-direction: column; /* Coloca el texto debajo de la imagen */
+    align-items: center;
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.card-item img {
+    border-radius: 50%; /* Hace la imagen redonda */
+    width: 130px;
+    height: 130px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para darle un toque elegante */
+}
+
+/* Estilo del texto debajo de las imágenes */
+.card-item p {
+    font-size: 18px;
+    color: black;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+/* Ajustes adicionales para el diseño */
+.apartadocuadro3cuerpo1 .image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.cuadro4cuerpo1{
+    width: 100%;
+    height: 200px;
+    background: darkcyan;
+    display: flex;
+    justify-content: center;
+}
+
+.apartadocuadro4cuerpo1 {
+    width: 1920px;
+    height: auto;
+    background: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
