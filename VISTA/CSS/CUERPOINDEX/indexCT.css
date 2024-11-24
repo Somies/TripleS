@@ -1,5 +1,8 @@
 
 @media (max-width:  991px) {
+/* Elimina márgenes innecesarios */
+body, html {margin: 0;padding: 0;overflow-x: hidden;}
+
 /*carrusel*/
     .cuadro1cuerpo1{
         height: 250px;
@@ -56,5 +59,22 @@
     .cuadro1cuerpo1{
         height: 400px;
     }
+/*TEXTO*/
+    .apartadocuadro2cuerpo1 p{
+        font-size: 25px;
+    }
+    
 /*plazas*/
+    .card-item img{
+        width: 100px;
+        height: 100px;
+    }
+    .cuadro3cuerpo1{
+        height: 200px;
+    }
+    .card-item p {
+        font-size: 15px;
+    }
+
+
 }

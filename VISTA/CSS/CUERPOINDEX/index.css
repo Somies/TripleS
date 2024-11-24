@@ -68,6 +68,7 @@
 .apartadocuadro2cuerpo1 p{
     transform: translateY(30px);
     font-size: 30px;
+    font-weight: bold;
 }
 
 /*plazas fotos*/
@@ -162,7 +163,7 @@
     font-size: 18px;
     color: black;
     margin-top: 8px;
-    font-weight: bold;
+    
 }
 
 /* Ajustes adicionales para el diseño */
